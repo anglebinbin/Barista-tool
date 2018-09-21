@@ -1,0 +1,12 @@
+# Dependencies for Barista
+# To install, open terminal and use command "sudo pip install -r requirements.txt"
+
+h5py==2.6.0
+leveldb==0.194
+lmdb==0.92
+matplotlib==1.5.3
+seaborn==0.7.1
+numpy>=1.12.0
+ipython==5.5.0
+ipywidgets==5.2.2
+scikit-image==0.12.3

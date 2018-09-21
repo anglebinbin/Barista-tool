@@ -1,0 +1,102 @@
+/****************************************************************/
+/* Below are global styles that can be used throughout the app. */
+/****************************************************************/
+
+QLabel#infoText {
+  color: rgba(0, 0, 0, 125);
+}
+
+#noIndicator::menu-indicator {
+  width: 0px;
+}
+
+/***************************************************/
+/* Below are styles affecting the properties dock. */
+/***************************************************/
+
+QTreeView#properties::item {
+  padding: 1px;
+  min-height: 25px;
+}
+
+/*************************************************/
+/* Below are styles affecting the input manager. */
+/*************************************************/
+
+QLabel#databaseLabel {
+  background-color: #FAFAFA;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #555555;
+  border-radius: 5px;
+  text-align: center;
+}
+
+QLabel#databaseType {
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #555555;
+  border-radius: 5px;
+  text-align: center;
+}
+
+QLabel#databaseStatus {
+  background-color: #EE0000;
+  color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #555555;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*******************************************************/
+/* Below are styles affecting the session item widget. */
+/*******************************************************/
+
+QPushButton#sessionBtn {
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #555555;
+  border-radius: 5px;
+  text-align: center;
+}
+
+QPushButton#sessionBtn:hover {
+  background-color: #BBBBBB;
+}
+
+QPushButton#sessionBtn:!hover {
+  background-color: #EEEEEE;
+}
+
+QPushButton#sessionBtn:focus {
+  background-color: #EEEEEE;
+}
+
+QPushButton#sessionBtn::menu-indicator {
+  width: 0;
+  height: 0;
+  image: 0;
+}
+
+QLabel#sessionId {
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #555555;
+  border-radius: 5px;
+  text-align: center;
+}
+
+QLabel#sessionStatus, QLabel#invalidMsg {
+  background-color: #FFF;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+  color: #FFF;
+}
